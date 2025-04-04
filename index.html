@@ -23,7 +23,9 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet" />
-
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  
 
 </head>
 
@@ -31,7 +33,7 @@
   <!------- Header ------->
   <header id="header">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="  background-color: #1e1e1e ;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="  background-color: #2d6902 ;">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
@@ -46,11 +48,13 @@
         <!-- Nav Links -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
           <ul class="navbar-nav ml-auto" id="navLinks">
-            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero" style="color: gold;">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#services" style="color: gold;">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" style="color: gold;">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery" style="color: gold;">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" style="color: gold;">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -241,109 +245,159 @@
     <!------- Gallery Section ------->
     <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
-        <div class="section_title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Events</p>
+        <div class="section_title text-center">
+          <h2>Our Event Showcase</h2>
+          <p>Explore a portfolio of our beautifully curated events.</p>
         </div>
+    
+        <div class="gallery-grid">
+          <!-- GALLERY ITEM -->
+          <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+          <script>
+            const lightbox = GLightbox({
+              selector: '.glightbox'
+            });
+          </script>
+          
+          <div class="gallery-item">
+            <a href="https://kehoedesigns.com/wp-content/uploads/2024/08/14_KEHOE_DESIGNS_ON_THE_EDGE_OF_EVENTS_MAL-scaled.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://kehoedesigns.com/wp-content/uploads/2024/08/14_KEHOE_DESIGNS_ON_THE_EDGE_OF_EVENTS_MAL-scaled.jpg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text"> Wedding</div>
+              </div>
+            </a>
+          </div>
+          <!-- GALLERY ITEM -->
+          <div class="gallery-item">
+            <a href="https://www.luxuryhotelawards.com/wp-content/uploads/sites/8/2023/08/DSCF3766.jpg" class="glightbox" data-gallery="gallery-item" data-description="Corporate Event">
+              <img src="https://www.luxuryhotelawards.com/wp-content/uploads/sites/8/2023/08/DSCF3766.jpg" alt="Corporate Event" />
+              <div class="overlay">
+                <div class="text">Corporate Event</div>
+              </div>
+            </a>
+          </div>
 
-        <div class="content">
-          <div class="row g-0">
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-1.jpg" alt="#MeetTheAdams" />
-                </a>
+
+
+          <div class="gallery-item">
+            <a href="https://images.unsplash.com/photo-1556125574-d7f27ec36a06?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnRzfGVufDB8fDB8fHww" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://images.unsplash.com/photo-1556125574-d7f27ec36a06?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnRzfGVufDB8fDB8fHww" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Parties</div>
               </div>
-            </div>
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-2.jpg" alt="#MeetTheAdams" />
-                </a>
+            </a>
+          </div>
+
+
+
+
+          <div class="gallery-item">
+            <a href="https://static.showit.co/800/nRatqbEBS0KEQ06kYfTi6w/244787/muse_event_co_wedding_event_planning_design_firm_production_design_management_weddings_toronto_canada_day_of_coordination_full_service84.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://static.showit.co/800/nRatqbEBS0KEQ06kYfTi6w/244787/muse_event_co_wedding_event_planning_design_firm_production_design_management_weddings_toronto_canada_day_of_coordination_full_service84.jpg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Decorations</div>
               </div>
-            </div>
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-3.jpg" alt="#MeetTheAdams" />
-                </a>
+            </a>
+          </div>
+
+
+
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://cdn0.weddingwire.ca/vendor/1377/3_2/960/jpg/supremelev-81_50_11377.jpeg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Elegant Decor</div>
               </div>
-            </div>
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-4.jpg" alt="#MeetTheAdams" />
-                </a>
+            </a>
+          </div>
+
+
+
+
+
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://royalluxuryevents.com/wp-content/uploads/2022/10/IntimateBackyardStyledShoot_WeddingDecor_06-1024x683.jpg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Events Decor</div>
               </div>
-            </div>
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-5.jpg" alt="#MeetTheAdams" />
-                </a>
+            </a>
+          </div>
+
+
+
+
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://www.gpsdecors.com/wp-content/uploads/2019/03/White-Green-reception.jpg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Luxury Events</div>
               </div>
-            </div>
-            <!-- GALLERY ITEM -->
-            <div class="col-6 col-md-4">
-              <div class="gallery_item m-1">
-                <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="gallery-item"
-                  data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
-                  <img src="assets/img/gallery/gallery-6.jpg" alt="#MeetTheAdams" />
-                </a>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="gallery-item" data-description="#MeetTheAdams. Femi Adams and Joke Banks Wedding">
+              <img src="https://www.mgnevents.co.uk/wp-content/uploads/2022/02/60th-Birthday-Celebration-028-1.jpg" alt="#MeetTheAdams" />
+              <div class="overlay">
+                <div class="text">Gathering</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
+    
+    
+
+
+
+
+
+
+
+
+    
     <!-- End Gallery Section -->
 
     <!------- Contact Section ------->
     <section id="contact" class="contact">
       <div class="section_title">
         <h2>Contact</h2>
-        <p>Get in touch with us</p>
+        <p>We would love to hear from you</p>
       </div>
       <div class="container" data-aos="fade-up">
         <div class="row info">
           <div class="col-md-4">
-            <div class="info_box mb-4">
-              <i class="bi bi-pin-map"></i>
+            <div class="info_box mb-4" style="transition: all 0.3s ease-in-out; cursor: pointer; background-color: #ffffff; box-shadow: 0 2px 15px rgba(0, 0, 0, 0);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 5px 20px rgba(0, 0, 0, 0.2)'; this.style.backgroundColor='#f8f9fa';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 15px rgba(0, 0, 0, 0)'; this.style.backgroundColor='#ffffff';">
+              <i class="bi bi-building"></i>
               <h5>Our Address</h5>
-              <p>3 Tobi street Ojo, Lagos</p>
+              <p>119 Desert Sand Drive</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="info_box mb-4">
-              <i class="bi bi-phone"></i>
+            <div class="info_box mb-4" style="transition: all 0.3s ease-in-out; cursor: pointer; background-color: #ffffff; box-shadow: 0 2px 15px rgba(0, 0, 0, 0);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 5px 20px rgba(0, 0, 0, 0.2)'; this.style.backgroundColor='#f8f9fa';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 15px rgba(0, 0, 0, 0)'; this.style.backgroundColor='#ffffff';">
+              <i class="bi bi-telephone-forward"></i>
               <h5>Call Us</h5>
-              <p>+234 9038 2545 60</p>
+              <p>+647 219 7561</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="info_box mb-4">
+            <div class="info_box mb-4" style="transition: all 0.3s ease-in-out; cursor: pointer; background-color: #ffffff; box-shadow: 0 2px 15px rgba(0, 0, 0, 0);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 5px 20px rgba(0, 0, 0, 0.2)'; this.style.backgroundColor='#f8f9fa';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 15px rgba(0, 0, 0, 0)'; this.style.backgroundColor='#ffffff';">
               <i class="bi bi-envelope"></i>
               <h5>Email Us</h5>
-              <p>contact@example.com</p>
+              <p>jasmine173208@gmail.com</p>
             </div>
           </div>
         </div>
+    </div>
+    
         <div class="row contactBox">
           <div class="col-lg-6 order-1 order-lg-0 map">
             <!-- GOTO https://www.maps.ie/create-google-map/ to generate your location map iframe -->
             <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Lagos%20NG+(EventPlanner%20-%20dyCodes)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115473.27572098961!2d-79.7667952115381!3d43.70013676647898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15e4b6d58f5b%3A0xd68f9ea46116e53b!2s199%20Desert%20Sand%20Dr%2C%20Brampton%2C%20ON%20L6R%201P9%2C%20Canada!5e0!3m2!1sen!2sng!4v1675202459534!5m2!1sen!2sng"
+                ></iframe><a
                 href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a></div>
             <!-- END -->
           </div>
@@ -397,49 +451,25 @@
   </main>
   <!-- End Main -->
 
-  <!------- Footer ------->
-  <footer>
-    <div class="
-          container
-          d-flex
-          flex-wrap
-          justify-content-between
-          align-items-center
-        ">
-      <div class="col-md-6 d-flex align-items-center">
-        <span>© Copyright EventPlanner. All Rights Reserved</span>
-      </div>
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 footer-left">
+                <p style="color: #ffffff;">© 2025 Jasmine Event Planner. All Rights Reserved</p>
+                <p style="color: #ffffff;">Designed by <a href="#" target="_blank"style="color: gold;"><b>Sidhant Sharma</b></a></p>
+            </div>
+            <div class="col-lg-6 footer-right">
+                <ul class="social-links">
+                    <li><a href="https://facebook.com" target="_blank"style="color: #ffffff; "><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="http://instagram.com" target="_blank"style="color: #ffffff;"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank"style="color: #ffffff;"><i class="bi bi-twitter"></i></a></li>
+                    <!-- <li><a href="https://wa.me/2349038254560" target="_blank"><i class="bi bi-whatsapp"></i></a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
-      <ul class="nav col-md-6 justify-content-end d-flex social">
-        <span>Designed by
-          <a href="http://" target="_blank"><b>Sidhant Sharma</b></a></span>
-        <li class="ms-3">
-          <a class="text-white" href="https://facebook.com/yusufdaudu51">
-            <i class="bi-facebook"></i>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-white" href="http://instagram.com">
-            <i class="bi-instagram"></i>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-white" href="https://twitter.com">
-            <i class="bi-twitter"></i>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-white" href="https://wa.me/2349038254560">
-            <i class="bi-whatsapp"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div id="whatsapp_button">
-      <a href="https://wa.me/2349038254560/?text=Hello!%20I%20love%20your%20EventPlanner%20Template%20"><i
-          class="bi-whatsapp"></i></a>
-    </div>
-  </footer>
   <!-- End Footer -->
 
   <!-- Vendor JS Files -->
@@ -447,6 +477,30 @@
   <script src="assets/vendor/glightbox.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+  <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/6472197561" class="whatsapp-float" style="display:none;" target="_blank">
+  <i class="bi bi-whatsapp" style="font-size: 28px; color: rgb(255, 255, 255);"></i>
+  <!-- <span style="margin-left: 10px; color: white; font-weight: bold;">Chat with Me</span> -->
+
+</a>
+
+
+
+
+<script>
+  window.onscroll = function() {
+      var pageOffset = document.documentElement.scrollTop || document.body.scrollTop;
+      if (pageOffset > 400) {  // Adjust the value based on when you want the button to appear
+          document.querySelector('.whatsapp-float').style.display = 'flex';
+      } else {
+          document.querySelector('.whatsapp-float').style.display = 'none';
+      }
+  };
+</script>
+
 </body>
 
 </html>
