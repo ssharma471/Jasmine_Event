@@ -728,3 +728,32 @@ body {
   line-height: 1.6; /* Improved line spacing for easier reading */
   margin-top: 15px;
 }
+
+.about {
+  background-color: #fff; /* Clean, white background for a fresh feel */
+  color: #333; /* Soft, dark color for readability */
+  padding: 80px 0; /* More padding for a spacious layout */
+}
+
+.about-img img {
+  border-radius: 50%; /* Circle image for a modern, friendly look */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.section_title {
+  font-size: 2.8rem; /* Larger, more prominent title */
+  color: #0056b3; /* Stylish, brand-aligned color */
+  margin-bottom: 15px; /* Space before subtitle */
+}
+
+.content h3 {
+  font-size: 1.8rem; /* Larger subtitle for importance */
+  color: #007bff; /* Slightly lighter blue for a modern touch */
+  margin-bottom: 20px; /* More space before text */
+}
+
+.content p {
+  font-size: 1.1rem; /* Optimal reading size */
+  line-height: 1.8; /* Improved line height for readability */
+  margin-bottom: 15px; /* Consistent spacing between paragraphs */
+}
